@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Noto Sans JP";
+    src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+}
+
+body {
+    margin: 0;
+    font-size: medium;
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 1.2em;
+    background-color: rgb(5, 178, 218);
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(217, 231, 22);
+}
+
+.container > img {
+    width: 50%;
+    border: 20px groove rgb(231, 36, 22);
+    margin: 0 auto;
+    display: block;
+    border-radius: 100%;
+}
+
+h1:first-of-type{
+    color: blue;
+}
+
+h1:last-of-type{
+    color: rgb(113, 38, 110);
+}
+
+p::first-line{
+    color: rgb(234, 38, 73);
+}
+
+p::first-letter{
+    font-size: xx-large;
+}
